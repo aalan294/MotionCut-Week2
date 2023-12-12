@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+form .form-section {
+    margin-bottom: 20px;
+}
+
+form h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+form label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+#confirmationMessage {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #e8f8f5;
+    border: 1px solid #d0e9c6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#confirmationMessage h2 {
+    font-size: 18px;
+    color: #1e7e34;
+    margin-bottom: 10px;
+}
+
+#confirmationMessage p {
+    font-size: 14px;
+    color: #666;
+}
